@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav .container {
+    padding: 0 110px;
+    background-color: #2c3e50;
+}
+.navbar {
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+.navbar ul a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar ul a:hover {
+    color: #1abc9c;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+}
+.firstSection .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+.firstSection img {
+    width: 240px;
+}
+.firstSection h1 {
+    font-size: 64px;
+    margin: 22px 0;
+    font-family: "Montserrat", sans-serif;
+}
+.firstSection ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.firstSection ul i {
+    font-size: 30px;
+    margin: 0 20px;
+}
+.firstSection ul input {
+    width: 111px;
+    border: none;
+    height: 4px;
+    border-radius: 27px;
+}
+.firstSection p {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    padding: 36px 0 60px;
+}
+.portfolio {
+    margin-top: 50px;
+}
+.portfolio_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
+.portfolio_content h1 {
+    font-size: 48px;
+    margin: 30px 0 20px;
+    color: #2c3e50;
+
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.portfolio_content ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.portfolio_content ul i {
+    color: #2c3e50;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.portfolio_content ul input {
+    width: 111px;
+    background-color: #2c3e50;
+    border: none;
+    height: 4px;
+    border-radius: 27px;
+}
+.portfolio_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 0 80px;
+    margin-bottom: 60px;
+}
+.portfolio_cards .images {
+    width: 400px;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px;
+    border-radius: 10px;
+}
+.firstImage {
+    background: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png);
+}
+.firstImage:hover {
+    background: linear-gradient(#1abc9c, rgba(100, 204, 17, 0.4)),
+        url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png);
+    opacity: 0.7;
+    background-color: rgba(26, 188, 156, 0.9);
+    background-position: center;
+    background-size: contain;
+}
+.secondImage {
+    background: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png);
+}
+.secondImage:hover {
+    background: linear-gradient(#1abc9c, rgba(100, 204, 17, 0.4)),
+        url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png);
+    opacity: 0.7;
+    background-color: rgba(26, 188, 156, 0.9);
+    background-position: center;
+    background-size: contain;
+}
+
+.thirdImage {
+    background: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png);
+}
+.thirdImage:hover {
+    background: linear-gradient(#1abc9c, rgba(100, 204, 17, 0.4)),
+        url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png);
+    opacity: 0.7;
+    background-color: rgba(26, 188, 156, 0.9);
+    background-position: center;
+    background-size: contain;
+}
+.fourthImage {
+    background: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png);
+}
+.fourthImage:hover {
+    background: linear-gradient(#1abc9c, rgba(100, 204, 17, 0.4)),
+        url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png);
+    opacity: 0.7;
+    background-color: rgba(26, 188, 156, 0.9);
+    background-position: center;
+    background-size: contain;
+}
+.fivthImage {
+    background: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png);
+}
+.fivthImage:hover {
+    background: linear-gradient(#1abc9c, rgba(100, 204, 17, 0.4)),
+        url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png);
+    opacity: 0.7;
+    background-color: rgba(26, 188, 156, 0.9);
+    background-position: center;
+    background-size: contain;
+}
+.sixthImage {
+    background: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png);
+}
+.sixthImage:hover {
+    background: linear-gradient(#1abc9c, rgba(100, 204, 17, 0.4)),
+        url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png);
+    opacity: 0.7;
+    background-color: rgba(26, 188, 156, 0.9);
+    background-position: center;
+    background-size: contain;
+}
+.about {
+    background-color: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.about_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
+.about_content h1 {
+    font-size: 48px;
+    margin: 30px 0 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.about_content ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.about_content ul i {
+    color: white;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.about_content ul input {
+    width: 111px;
+    border: none;
+    height: 4px;
+    border-radius: 27px;
+}
+.about .textUl {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    color: white;
+    font-size: 21px;
+    display: flex;
+    width: 61%;
+    list-style-type: none;
+}
+.about .textUl li {
+    width: 45%;
+}
+.about li {
+    line-height: 30px;
+}
+.about button {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.about button:hover {
+    background-color: white;
+    color: black;
+}
+.about button i {
+    font-size: 20px;
+    padding: 12px;
+}
+.about button p {
+    font-size: 20px;
+}
+
+.topFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0 70px;
+    height: 270px;
+    background-color: #2c3e50;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    margin-top: 64px;
+}
+.topFooter h4 {
+    color: white;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 24px;
+}
+.topFooter p {
+    font-size: 20px;
+    color: white;
+}
+.topFooter .location {
+    width: 26%;
+    padding: 0 57px;
+}
+.topFooter .web {
+    width: 30%;
+    margin-left: 50px;
+}
+.topFooter .web ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.topFooter .web li {
+    border-radius: 100%;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 10px 15px;
+}
+.topFooter .web li i {
+    color: white;
+}
+.topFooter .freelancer {
+    width: 30%;
+}
+.topFooter .freelancer a {
+    color: #1abc9c;
+}
+footer .bottomFooter {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a252f;
+    color: white;
+}
+.contact_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
+.contact_content h1 {
+    color: #2c3e50;
+    font-size: 48px;
+    margin: 30px 0 20px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.contact_content ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.contact_content ul i {
+    color: #2c3e50;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.contact_content ul input {
+    width: 111px;
+    background-color: #1a252f;
+    border: none;
+    height: 4px;
+    border-radius: 27px;
+}
